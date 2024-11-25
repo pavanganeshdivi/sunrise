@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.moun{
+    width: 100%;
+    height: 720px;
+    background-color: gray;
+    background-image: url(./leftmountainnight.png),url(./fullmoon.png),url(./smlmountainnight.png),url(./sun.png),url(./birds.gif),url(./mountainnight.png),url(./smlmountainrgrightnight.png),url(./night-space.jpg);
+    background-position: bottom left,-20px 10px,350px 340px,450px 600px,1520px 300px,bottom right,650px 340px,center;
+    background-size: 600px,220px,600px,320px,320px,600px,600px,100% 900px;
+    background-repeat: no-repeat;
+    transition: all 8s 0s linear;
+}
+.moun:hover{
+    width: 100%;
+    height: 720px;
+    background-color: gray;
+    background-image: url(./leftmountain.png),url(./fullmoon.png),url(./smlmountain.png),url(./sun.png),url(./birds.gif),url(./mountain.png),url(./smlmountainrgright.png),url(./sky.jpg);
+    background-position: -100px 350px,30px 520px,320px 360px,750px -100px,-310px 300px,1050px 350px,680px 360px,bottom;
+    background-size: 600px,200px,600px,400px,320px,600px,600px,100% 900px;
+    background-repeat: no-repeat;
+}
